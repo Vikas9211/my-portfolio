@@ -1,0 +1,231 @@
+
+body{
+    height: 250rem;
+    background-color:hsl(60, 100%, 97%);   
+}
+.topnav{
+    text-align: right;
+    padding: 25px 35px;
+}
+.topnav a{
+    margin-right: 100px;
+    color: rgb(144, 144, 144);
+    text-decoration: none;
+}
+.topnav a:hover {
+    color: black;
+    margin-top: 600px;
+}
+.hometext{
+    padding:400px 300px 0px 100px;
+    font-size: 50px;
+}
+.dev{
+    margin-top: 0;
+}
+.features{
+    gap:80px;
+    height: 35em;
+    background-color: red;  
+}
+.box{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.name-ul:hover {
+    text-decoration:  underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: crimson;
+}
+
+.features .box{
+    width: 350px;
+    border-color: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 2px 10px 30px;
+    padding: 90px 55px;
+    background-color:#BFB9FA;   
+    row-gap: 40px;
+    float:left;
+    margin-left: 35px;
+    margin-top: 8em;
+    text-align: left;
+}
+.what-i-do{
+    height: 35em;
+}
+.what-i-do .me img{
+    background-color:#BFB9FA;      
+    width: 350px;
+    border-radius: 40px;
+    box-shadow: 2px 10px 30px; 
+    padding: 120px 55px;
+    text-align: center;
+    row-gap: 40px;
+    float:left;
+    margin-left: 35px;
+    height: 250px;
+    position: relative;
+    display: block;
+}
+.p{
+    border:2px solid black;
+}
+.ui{
+    font-size: 30px;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 55px;
+    transition: transform .2s;
+    margin: 0 auto;
+
+}
+.ui:hover {
+    font-size:50px;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    text-decoration-line:underline;
+
+}
+.ux{
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 23em;
+    transition: transform .2s;
+}
+.web{
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 41em;
+    transition: transform .2s;
+
+}
+.project{
+    background-color:#BFB9FA;   
+    height: 35em;
+    width: 60em;
+    margin-left: 260px;
+    border-radius: 60px;
+    box-shadow: 2px 5px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.i {
+
+    box-shadow: 5px 15px 30px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%
+}
+
+.img-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+
+.social-media{
+    background-color:#BFB9FA;   
+    width: 35em;
+    height:37em;
+    margin-top: 18em;
+    margin-left: 2em;
+    border-radius: 30px;
+    box-shadow: 1px 4px 20px;
+    float:left;
+  
+}
+.social-media img{
+    height: 15em;
+    width: 25em;
+    transform: translate(80px,40px);    
+    border-radius: 20px;
+}
+.icons{
+    text-decoration: none;
+    padding:5em;
+    
+}
+.icon-link{
+    text-decoration: none;
+    font-size: 30px;    
+}
+
+.v{
+    height: 650px;
+    width: 400px;
+    position: absolute;
+    transform:translate(60em,1em);
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+
+.contact-me h1{
+    font-size: 4em;
+    transform: translate(10px,250px);
+}
+
+.send-msg{
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    transform:translate(60em,1em);
+    background-color:#BFB9FA;   
+    margin-left:-10em;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px;
+    margin-top: -40em;
+    padding-top: 7em;
+}
+.msg{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left:30px;
+    height:40px;
+    width:25em;
+}
+#your-message{
+    margin-top:35px;
+    margin-left:50px;
+    width:400px;
+    height:150px;
+    border-radius: 30px;
+    text-wrap:wrap;
+    box-shadow: 1px 1px 10px;
+    border:0.5px grey;
+
+}
+.para{
+    transform: translate(30px,40px);
+    font-size: 20px;
+    
+}
+
+.input{
+    box-shadow: 1px 1px 10px;
+    width:20em;
+    height:3em;
+    display: inline-block;
+    border-radius: 20px;
+    border:0.5px grey;
+}
+.input3{
+    width:20em;
+    height:3em;
+    display: inline-block;
+    margin-left:35px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px;
+    border:0.5px grey;
+
+}
+.dm{
+    font-size: 50px;
+    transform: translate(0px,-400px);
+}
